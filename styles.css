@@ -74,6 +74,7 @@ footer {
 main {
   display: grid;
   max-width: 310px;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Styling Blocks */
@@ -168,7 +169,6 @@ main {
     max-width: 620px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.1);
   }
 
   .block {
